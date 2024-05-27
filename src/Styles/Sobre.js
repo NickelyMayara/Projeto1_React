@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import fundo from '../../images/fundoOnda.avif'
 
 const Cor = {
     AzulMarinho: "#042940",
@@ -38,7 +38,8 @@ export const Texto = styled.p`
     font-weight: 600;
     text-align: justify;
 `
-export const fundo = styled.img`
+export const Fundo = styled.img`
+    background-image: url(${fundo});
 `
 
 export const SecaoAnimais = styled.section`

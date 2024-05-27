@@ -1,11 +1,11 @@
-import { Container, Titulo1, Texto, ContainerTextos, SecaoAnimais, SecaoInfo, Info1, Info2, Img, ContainerTextosInfo, TextoInfo1, TextoInfo2, TituloAnimal1, TituloAnimal2, TituloSecaoAnimais } from '../Styles/Sobre'
+import { Container, Titulo1, Texto, ContainerTextos, SecaoAnimais, SecaoInfo, Info1, Info2, Img, ContainerTextosInfo, TextoInfo1, TextoInfo2, TituloAnimal1, TituloAnimal2, TituloSecaoAnimais, Fundo } from '../Styles/Sobre'
 
 import ImgCavaloMarinho from '../../images/cavalo-marinho.webp'
 import ImgAguaViva from '../../images/aguaViva.avif'
 import ImgPolvo from '../../images/polvo.jpg'
 import ImgCaravela from '../../images/caravela.jpg'
 import ImgEstrela from '../../images/estrela.webp'
-import fundoOnda from '../../images/fundoOnda.avif'
+
 
 const Sobre = () => {
     return (
@@ -18,6 +18,7 @@ const Sobre = () => {
                     - Ética, transparência, sustentabilidade, inovação e inclusão.
                 </Texto>
             </ContainerTextos>
+            <Fundo>
             <SecaoAnimais><TituloSecaoAnimais>Conheça alguns Animais Marinhos</TituloSecaoAnimais></SecaoAnimais>
             <SecaoInfo>
                 <Info1>
