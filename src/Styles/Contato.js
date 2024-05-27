@@ -7,15 +7,25 @@ const Cor = {
     White: "#000"
 }
 
-export const Container = styled.div`
+export const Container = styled.section`
     background-color: ${Cor.AzulMarinho};
-    min-width: 200px;
-    min-height: 200px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 15px;
+    border: white 1px inherit;
 `
-export const Contato = styled.h1`
+
+export const Infos = styled.div`
     
 `
-export const Subitulo = styled.h4`
+
+export const Titulo = styled.h1`
+    color: white;
+`
+export const Subtitulo = styled.h4`
     
 `
 export const Email = styled.p`
