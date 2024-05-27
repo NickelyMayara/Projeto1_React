@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import fundo from '../../images/fundoOnda.avif'
 
 const Cor = {
     AzulMarinho: "#042940",
@@ -39,7 +38,11 @@ export const Texto = styled.p`
     text-align: justify;
 `
 export const Fundo = styled.img`
-    background-image: url(${fundo});
+    height: 160px;
+    width: 100%;
+    opacity: 20%;
+    object-fit: cover;
+    margin: 0;
 `
 
 export const SecaoAnimais = styled.section`
@@ -52,7 +55,7 @@ export const TituloSecaoAnimais = styled.h1`
     color: ${Cor.AzulMarinho};
     padding: 50px;
     text-align: center;
-    font
+    font-family: "Chelsea Market", system-ui;
 `
 export const SecaoInfo = styled.section`
     display: flex;

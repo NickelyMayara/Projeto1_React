@@ -5,7 +5,7 @@ import ImgAguaViva from '../../images/aguaViva.avif'
 import ImgPolvo from '../../images/polvo.jpg'
 import ImgCaravela from '../../images/caravela.jpg'
 import ImgEstrela from '../../images/estrela.webp'
-
+import fundoOnda from '../../images/fundoOnda.avif'
 
 const Sobre = () => {
     return (
@@ -18,8 +18,8 @@ const Sobre = () => {
                     - Ética, transparência, sustentabilidade, inovação e inclusão.
                 </Texto>
             </ContainerTextos>
-            <Fundo>
-            <SecaoAnimais><TituloSecaoAnimais>Conheça alguns Animais Marinhos</TituloSecaoAnimais></SecaoAnimais>
+            <Fundo src={fundoOnda} alt='#'/>
+            <SecaoAnimais><TituloSecaoAnimais>🪸Conheça alguns Animais Marinhos🪸</TituloSecaoAnimais></SecaoAnimais>
             <SecaoInfo>
                 <Info1>
                     <Img src={ImgCavaloMarinho} alt='#' />
